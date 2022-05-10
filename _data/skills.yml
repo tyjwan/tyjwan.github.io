@@ -4,16 +4,18 @@
       - C++
       - Python
       - Design Patterns
+      - GoLang
 
-- name: Mobile Developer Keywords
+- name: Infrastructure
   keywords:
-      - Android
-      - Reverse Engineering
+      - Computer Networking
+      - Operating System
+      - Data Structures and Algorithms
 
-- name: Windows Developer Keywords
+- name: Middleware
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Mysql
+      - Redis
+      - Kafka
+      - Config Center
+      - API GateWay
