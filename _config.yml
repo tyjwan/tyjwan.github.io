@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://tangyejun.org
+url: https://tyjwan.github.io
 date_format: "ordinal"
 title: tyjwan
 subtitle: "技术之路，任重道远"
