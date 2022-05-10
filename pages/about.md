@@ -19,7 +19,7 @@ permalink: /about/
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'tyjwan' %}
+{% if site.url contains 'tyj' %}
 <li>
 哔哩哔哩up主：<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="爱学习的程序员唐唐" />
