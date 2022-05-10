@@ -149,7 +149,7 @@ gitalk:
     clientSecret: 9d19353d6263d1c880fcf1a577d709b04d1db2d7
 # https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: tyjwan/blog-comments
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
