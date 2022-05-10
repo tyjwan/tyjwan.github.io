@@ -22,7 +22,7 @@ permalink: /about/
 {% if site.url contains 'tyj' %}
 <li>
 哔哩哔哩：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode1.jpg" alt="爱学习的程序员唐唐" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode2.jpg" alt="爱学习的程序员唐唐" />
 </li>
 {% endif %}
 </ul>
