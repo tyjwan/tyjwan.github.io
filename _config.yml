@@ -147,6 +147,7 @@ gitalk:
     repo: blog-comments
     clientID: bfb01eedbab6dafe8b42
     clientSecret: 9d19353d6263d1c880fcf1a577d709b04d1db2d7
+    proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token
 # https://utteranc.es/
 utterances:
     repo: tyjwan/blog-comments
