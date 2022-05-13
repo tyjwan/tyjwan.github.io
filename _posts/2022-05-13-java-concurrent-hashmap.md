@@ -36,7 +36,7 @@ keywords: 并发，concurrent, hashmap, map
 
    b. 再经过一次hash定位到真正的HashEntry数组中对应的位置。HashEntry结构如下所示
 
-   ![image-20210112105419519](/Users/hongqinli/Downloads/Java-Learning-Notes-master/源码分析/Java/Map/image/concurrentHashMap.png)
+   ![image-20210112105419519](/images/posts/java/concurrentHashMap.png)
 
    
 
@@ -44,7 +44,7 @@ keywords: 并发，concurrent, hashmap, map
 
 2. **put方法**
 
-![image-20210112105724739](/image/posts/java/concurrent-put1.png)
+![image-20210112105724739](/images/posts/java/concurrent-put1.png)
 
 （1）处代码：尝试自旋获取锁。
 
@@ -52,7 +52,7 @@ keywords: 并发，concurrent, hashmap, map
 
 
 
-![image-20210112105919204](/image/posts/java/concurrent-put2.png)
+![image-20210112105919204](/images/posts/java/concurrent-put2.png)
 
 （1）处代码：将当前 Segment 中的 table 通过 key 的 hashcode 定位到 HashEntry。
 
@@ -268,3 +268,4 @@ keywords: 并发，concurrent, hashmap, map
 5. **为什么要锁住更新操作的代码块**
 
    防止前后两个线程put的数据相互覆盖
+
