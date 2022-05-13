@@ -1,11 +1,9 @@
 ```
----
 layout: post
 title: Synchronized原理
 categories: Java
-description: 
+description: 对synchronize的一些理解
 keywords: synchronized, 多线程，锁，同步
----
 ```
 
 众所周知 `synchronized` 关键字是解决并发问题常用解决方案，有以下三种使用方式:
